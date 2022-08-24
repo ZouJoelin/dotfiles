@@ -1,0 +1,40 @@
+
+[git]:  # update git to latest version
+  {
+    sudo add-apt-repository ppa:git-core/ppa
+    sudo apt-get update
+    sudo apt-get install git
+    git --version
+  }
+  
+[zsh]:
+  {
+    sudo apt install zsh
+    chsh -s /bin/zsh       
+  }
+
+[oh-my-zsh]:
+  {
+    # come with chezmoi's dotfiles?
+  }
+
+[tldr]:
+  {
+    sudo apt install tldr    
+  }
+  
+[gcc+make]:
+  {
+    sudo apt install build-essential
+  }
+  
+[brew]：
+  {
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  }
+
+  
+[chezmoi]:
+  {
+    snap install chezmoi --classic
+  }
