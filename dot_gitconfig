@@ -1,0 +1,19 @@
+
+[user]
+	email = 572060671@qq.com
+	name = ZouJoelin
+
+[pager]
+	log = false
+	branch = false
+
+[alias]
+	graph = log --all --graph --decorate --oneline
+	
+[core]
+	excludesfile = /home/voldemort/.gitignore
+
+
+
+[init]
+	defaultBranch = main

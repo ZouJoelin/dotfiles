@@ -1,0 +1,16 @@
+
+Host hacker
+	HostName 172.24.27.249
+	User hacker
+	Port 22
+
+Host hacker1
+	HostName 172.24.46.177
+	User hacker
+	Port 22
+	
+
+Host meisq
+	HostName 202.116.90.99
+	User meisq
+	Port 22

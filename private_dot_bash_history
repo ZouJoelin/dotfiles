@@ -1,0 +1,1075 @@
+sudo apt-get install gcc make perl
+gcc
+make
+perl
+ip ad
+sudo apt install gnome-shell-extensions
+sudo apt-get install gnome-shell-extension-autohidetopbar
+sudo apt-get remove gnome-shell-extension-autohidetopbar
+home
+cd home
+cd ..
+ls
+cd ./share
+sudo apt-get remove gnome-shell-extensions
+sudo apt-get install gnome-shell-extension-autohidetopbar
+pip
+python3
+git
+cd ..
+ls
+cd ..
+ls
+snap
+cd home
+ls
+cd voldemort
+ls
+cd snap
+ls
+cd ../.. 
+sudo apt install git python3-pip
+git -v
+git --version
+pip -V
+python3 --version
+snap -v
+snap -V
+snap --version
+nano
+nano demo
+ls
+rm demo
+ls
+ps -aux
+~~ps -aux | grep ssh
+ps -aux | grep ssh
+ps -aux | grep ntp
+pstree 
+ps -us
+ps -aux
+sudo systemctl status sshd
+sudo systemctl status ssh
+sudo systemctl stop ssh
+ssh
+sshd
+sudo apt install ssh
+sshd
+ssh
+ps -aux | grep sshd
+ps -aux | grep ssh
+sudo systemctl status ssh
+sudo systemctl status sshd
+sudo systemctl stop ssh
+sudo systemctl status ssh
+sudo systemctl start ssh
+sudo systemctl status ssh
+sudo systemctl disable ntp
+ntp
+ps -aux | grep ntp
+ps -aux | grep ntpd
+sudo systemctl status ntp
+sudo apt install ntp
+ntp
+ntpd
+ip ad
+sudo systemctl list-units
+sudo systemctl list-units | grep nginx
+sudo systemctl list-units --all | grep nginx
+sudo systemctl list-unit-files --all | grep nginx
+sudo systemctl list-unit-files | grep nginx
+ps -u
+open firefox
+kill firefox
+ps -u voldemort | grep firefox
+pgrep firefox
+kill 2189
+ps --help
+ps -aux
+top
+htop
+sudo apt  install htop
+htop
+ping -c 100 networkchunk.com
+sleep 300
+ping -c 1000 networkchunk.com
+jobs
+bg 1
+jyf
+hf
+fgfg 1
+fg 1
+sleep 9900 & 
+jobs
+kill -9 1
+jobs
+ps
+kill -19 3238
+jobs
+kill --help
+kill -h
+kill --H
+kill --help
+kill -s
+kill -l
+kill -9 3238
+jobs
+ssh
+ntp
+ntpd
+pip --version
+ls
+ip ad
+python3 -m http.server
+ls
+mkfile website
+mkdir website
+ls
+cd website
+ls
+nano index.html
+cat index.html
+python3 -m http.server
+echo
+echo Helloecho >> index.html
+ls
+cat index.html
+echo Hello,worldcat index.htmlcat index.html >> index.html
+cat index.html
+php
+systemctl start apache2.server
+systemctl start apache2.service
+systemctl start apache2
+cd ..
+ls
+cd ..
+ls
+cd etc/apache
+cd home
+cd desktop
+ls
+cd voldemort
+ls
+cd website
+curl localhost:8000
+sudo apt  install curl
+curl localhost:8000
+curl localhost:7060
+curl -I localhost:7060
+curl -v localhost:7060
+wget localhost:7060
+ls
+ls
+cd website
+ls
+cat index.html
+echo test > index.html
+cat index.html
+nano index.html
+cat index.html
+python3 http.server : 0709
+python -m http.server : 0709
+python3 -m http.server : 0709
+python3 -m http.server 0709
+python3 -m http.server 7060
+gcc
+nano
+vi
+gcc
+git
+py -V
+py -version
+py -v
+pip -V
+advj,nslnadjsvdngsn
+git
+pip
+git
+pip
+python -v
+clear
+cd /sys
+l
+ls
+cd class
+ls
+cd ~
+ls
+cd sys
+cd /sys
+ls
+cd backlight
+cd class
+ls
+cd backlight
+ls
+cd ~
+ls
+cd desktop
+cd Desktop
+ls
+echo 500 > new.txt
+cp new.txt
+cp new.txt new2.txt
+cat new.txt >> new2.txt
+cat new2.txt
+ls
+ls -l |cat new3.txt
+cat <new.txt >new3.txt
+ls |cat new3.txt
+cat new3.txt
+ls | cat >new3.txt
+cat new3.txt
+ls -l
+ls |cat >new3.txt
+cat new3.txt
+cat new2.txt
+cat new.txt
+ls | cat >new4.txt
+car new4.txt
+cat new4.txt
+ls | echo >new5.txt
+cat new5.txt
+ls | echo < >new6.txt
+echo <ls >new6.txt
+echo <new.txt >new6.txt
+cat new6.txt
+sudo rm new6.txt
+cat <new.txt > sudo new6.txt
+rm sudo
+cat <new.txt sudo>new6.txt
+cat new6.txt
+rm new6.txt
+tee new6.txt
+cat new6.txt
+rm new6.txt
+tee <new.txt >new6.txt
+cat new6.txt
+rm new6.txt
+tee new.txt new6.txt
+cat new.txt
+echo 500 >new.txt
+cat new.txt
+tee 500 >>new.txt
+cat new.txt
+tee 600 >.new.txt
+cat new.txt
+tee <new2.txt new.txt
+cat new.txt
+rm new6.txt new5.txt new4.txt
+tee -h
+tee --help
+man tee
+tee new4.txt
+cat new4.txt
+tee -a new4.txt
+cat new4.txt
+man cat
+rm new4.txt
+cat new3.txt
+echo 500 | sudo cat >new4.txt
+cat new4.txt
+echo 600 | sudo tee >>new4.txt
+cat new4.txt
+echo 600 | sudo tee new4.txt
+cat new4.txt
+echo 600 | sudo tee -a new4.txt
+cat new4.txt
+xdg-open new.txt
+echo $SHELL
+rm new.txt new2.txt new3.txt
+rm new4.txt
+rm 500
+rm 600
+exit
+ls
+cd ..
+ls
+cd tmp
+mkdir missing
+ls
+man touch
+cd missing
+ls
+touch semester
+ls
+ls -l
+echo #!/bin/sh
+echo \#
+echo \#!
+echo \#\!/
+echo \#\!/bin/sh
+echo '#!/bin/sh
+'
+echo '#!/bin/sh' >semester
+echo --head --silent https://missing.csail.mit.edu
+echo --head --silent https://missing.csail.mit.edu >>semester
+cat semester
+ls
+semester
+./semester
+sudo ./semester
+ls -l
+./semester
+sudo su
+ls
+ls -l
+man chomd
+man chmod
+chmod 7 semester
+ls -l
+chmod rwxrwxrwx semester
+chmod --help
+chmod 777semester
+chmod 777 semester
+ls -l
+./semester
+fdg-open
+xdg-open semester
+nano semester
+cat semester
+./semester
+./semester | grep last-modified 
+./semester | grep last-modified >~/last-modified.txt
+xdg-open ~/last-modified.txt
+cd ~
+ls
+cat last-modified.txt
+rm last-modified.txt
+ls
+cd sys
+cd ../../sys
+ls
+cd power
+ls
+cat pm-trace
+ls -l
+nano disk
+ccd ..
+ls
+cd ..
+ls
+cd class
+ls
+cd power-supply
+cd power_supply
+ls
+cd BAT0
+ls
+cat capacity
+exit
+foo = bar
+sh
+ls
+exit
+vi run.sh
+ls
+vim run.sh
+sudo apt install vim
+ls
+vim
+vi run.sh
+exit
+ls
+vim
+vi run.sh
+echo '#!/bin/sh' >run.sh
+ls
+./run.sh
+ls -l
+chmod -x run.sh
+ls -l
+chmod +x run.sh
+ls -l
+chmod -x run.shchmod -x run.sh
+chmod -x run.sh
+ls -l
+chmod +x run.sh
+ls -l
+./run.sh
+xdg-open run.sh
+nano run.sh
+./run.sh
+nano run.py
+ls
+nano run.py
+chmod +x run.py
+./run.py
+python
+py
+python -version
+python3 -V
+pip -V
+python# -V
+python3 _V
+python3 -V
+nano run.py
+./run.py
+ls
+./run.sh
+./run.py
+nano run.py
+ls
+cd -
+ls
+cd ~
+ls
+cd -
+ls
+cd bin
+ls
+cd ../usr/bin
+ls
+ls |grep python
+cd -
+ls
+cd ~
+ls
+seq 1 4
+$(seq1 3)
+i in $(seq 1 5)
+for 1 in $(seq 1 5); do echo hello; done
+for i in $(seq 1 5); do echo hello; done
+i = 3
+i = 3;
+for i in $(seq 4 5); do echo hello; done
+for i in 2 3; do echo hello; done
+for i in $(seq 1 5); do echo i; done
+for i in $(seq 1 5); do echo $i; done
+for i in $(seq 4 5); do echo hello; done
+for i in $(seq 1 5); do echo $i; done
+for i in $(ls -l); do echo $i; done
+for i in $(ls); do echo $i; done
+foo=bar
+echo $foo
+ls
+nano run.sh
+./run.sh a b c
+ls
+mkdir missing
+mv run.py missing
+ls
+mv run.sh run.py missing
+ls
+cd ../..
+ls
+cd tmp
+ls
+rm missing
+rm -f missing
+rm -rf missing
+ls
+cd -
+ls
+cd ~
+ls
+cd missing
+ls
+mkdir dir1
+mkdir dir2
+l
+ls
+ls -la
+if 1>0; them echo hello; fi
+rm zfbfb
+echo $?
+mkdir foo
+echo $?
+rm sfvb
+echo $?
+rm foo
+echo $?
+rmdir foo
+echo $?
+for f in $(ls); do if test -d $f; then echo dir $f; fi; done
+ls
+for f in $(ls); do if test 1>0; then echo dir $f; fi; done
+man test
+test 1=0
+echo test 1=0
+test 1=0 >echo
+test 1=0
+echo $?
+test 1=1
+echo $?
+test 1!=0
+man test
+echo $test
+echo $trst 1!=0
+echo $test 1!=0
+foo=test 1!=0
+ls
+cat echo
+cat 0
+rm 0 echo
+ls
+test 1 -eq 2
+echo $?
+test 1 -eq 1
+echo $?
+test 1=2
+echo $?
+test 1==2
+echo $?
+test 1!=2
+echo $?
+man test
+ls
+mkdir 'my dir'
+ls
+mkdir my\ dir2
+ls
+for f in $(ls); do if test 1>0; then echo dir $f; fi; done
+for f in $(ls); do if [-d $f]; then echo dir $f; fi; done
+for f in $(ls); do if [ -d $f]; then echo dir $f; fi; done
+for f in $(ls); do if [ -d $f ]; then echo dir $f; fi; done
+ls
+for f in $(ls); do if [ -d '$f' ]; then echo dir $f; fi; done
+for f in $(ls); do if [ -d "$f" ]; then echo dir $f; fi; done
+ls
+rm 0
+for f in dir1   dir2  'my dir'  'my dir2'; do if [ -d "$f" ]; then echo dir $f; fi; done
+for f in "$(ls)"; do if [ -d "$f" ]; then echo dir $f; fi; done
+for f in dir1   dir2  'my dir'  'my dir2'; do if [ -d "$f" ]; then echo dir $f; fi; done
+$ls
+echo $ls
+echo $(ls)
+echo $("ls")
+echo "$(ls)"
+for f in "$(ls)"; do if [ -d "$f" ]; then echo dir $f; fi; done
+ls
+for f in $(ls); do if [ -d "$f" ]; then echo dir $f; fi; done
+seq 1 5
+ls
+mv my\ dir2 my\ dir1
+ls
+echo {d,m}*
+for f in $(ls); do if [ -d "$f" ]; then echo dir $f; fi; done
+for f in *; do if [ -d "$f" ]; then echo dir $f; fi; done
+echo foo
+echo $foo
+nano run.sh
+./run.sh bar
+ls -l
+nano run.sh
+./run.sh bar
+./run.sh d
+./run.sh 
+./run.sh bar
+nano run.sh 
+./run.sh bar
+./run.sh
+nano run.sh 
+./run.sh bar
+./run.sh
+sh
+who
+who | sendmail -t 572060671@qq.com
+ls
+nano mcd.sh
+source mdc.sh
+source mcd.sh
+mcd tets
+cd ..
+ls
+rmdir tets
+ls
+./mcd.sh hello
+chmod -x mcd.sh
+ls -l
+chmod +x mcd.sh
+ls -l
+./mcd.sh
+./mcd.sh hello
+ls
+mcd hello
+cd ..
+exit
+ls
+cd missing
+mcd hello
+ls
+./mcd.sh
+mcd hello
+source mcd.sh
+mcd hello
+cd ..
+ls
+rm hello
+rmdir hello
+ls
+touch foo{.1,.2}
+ls
+mcd heppy
+cd ..
+rmdir heppy
+ls
+touch {foo,bar}{a..z}
+ls
+rmdir {foo,bar}{a..z}
+rm {foo,bar}{a..z}
+ls
+rm foo.{1,2
+rm foo.{1,2}
+ls
+touch foo/x
+ls
+rm {foo,bar}{a..z}
+touch {foo,bar}{a..z}
+ls
+rm {foo,bar}{a..z}
+touch {foo,bar}/{a..z}
+touch {foo,bar}\{a..z}
+ls
+rm {foo,bar}\{a..z}
+ls
+mkdir foo bar
+ls
+rmdir dir*
+ls
+rm my*
+rmdir my*
+ls
+touch foo/x bar/y
+ls
+diff <(ls foo) <(ls bar)
+touch foo/y bar/x
+diff <(ls foo) <(ls bar)
+ls
+nano run.py
+./run.py
+python3 run.py
+nano run.py
+python3 run.py
+./run.py
+nano run.py
+./run.py
+nano run.py
+./run.py
+pyhton3 run.py
+python3 run.py
+cd ../../../usr
+ls
+cd local
+cd ..
+cd bin
+ls | grep python3
+cd ~
+cd missing
+ls
+nano run.py
+./run.py
+cp run.py env.py
+ls
+nano env.py
+./env.py
+nano run.py
+nano env.py
+./env.py
+shellcheck run.sh
+sudo snap install shellcheck
+shellcheck run.sh
+tldr
+sudo apt install tldr
+tldr ls
+tldr rm
+tldr ps
+packages
+rpm -qa
+sudo apt-cache pkgnames
+sudo apt-cache dumpavail
+sudo apt-cache pkgnames
+tldr ssh
+ssh 202.116.90.99
+ssh www.google.com
+ssh 572060671@qq.com
+ping 202.116.90.99
+ls
+mkdir {foo,bar}/src
+ls
+find . -name src -type d
+tldr find
+fd src
+lookup
+lookfor
+locate python3
+grep for run.sh
+echo $？
+echo $?
+grep for run.sh
+echo $?
+grep bin run.sh
+grep bin
+ls
+cp *.sh mydir/*.sh
+cp *.sh mydir
+mkdir mudir
+cp *.sh mydir
+mv mudir mydir
+ls
+cp *.sh mydir
+ls
+ls mydir
+grep bin mydir
+grep -R bin
+tldr grep
+man grep
+grep --helo
+grep --help
+history
+history > tail -n10
+history | tail -n 10
+ls
+rm tail
+ls
+cd missing
+ls
+history | tail -n 10 > hist
+hist
+xdg-open hist
+ls
+cat etc/shells
+cd ~
+cd ../../etc.shells
+cd ../..
+ls
+cd etc/shells
+cd etc
+ls
+ls | grep shell
+cat shells
+cd ~/missing
+ls
+history | grep -R
+history | grep "\R"
+grep -R bin
+tree 
+sudo apt  install tree
+tree
+broot
+tldr ls
+ls -ls
+ls -la
+man ls
+ls -lak
+ls -lk
+ls -l -k
+ls -lar
+ls -la
+ls --color
+ls -la --color always
+man ls
+man ls | grep color
+ls -la --color=always
+ls -la --color=never
+ls -la --color=auto
+ls -laht --color=auto
+ls
+cat hist
+nano marco.sh
+pwd
+nano marco.sh
+echo $pwd
+echo $(pwd)
+cd $home
+ls
+cd ~
+cd missing
+ls
+;
+ls
+nano marco.sh
+./marco.sh
+chmod +x marco.sh
+./marco.sh
+echo $?
+ls
+nano marco.sh
+source marco.sh
+marco
+nano marco.sh
+marco
+source marco.sh
+marco
+ls
+xdg-open marco_log.log
+nano marco.sh
+cat ~/missing/marco_log.log
+nano marco.sh
+cd ~/missing/marco_log.log
+cd $(~/missing/marco_log.log)
+cd $(cat ~/missing/marco_log.log)
+echo $?
+$(cat ~/missing/marco_log.log)
+cat ~/missing/marco_log.log
+cd "$(cat ~/missing/marco_log.log)"
+cd ~
+cd "$(cat ~/missing/marco_log.log)"
+nano marco.sh
+source marco.sh
+polo
+cd ~
+polo
+cd foo
+marco
+cd ~
+polo
+cd ..
+marco
+nano marco.sh
+polo
+source marco.sh
+mv marco{.sh,marco-polo.sh}
+ls
+nano marco-polo.sh
+mv marcomarco-polo.sh marco-polo.sh
+nano marco-polo.sh
+y
+cat ~/missing/marco_log.log
+cat ~/missing/marco_log.log | cd
+cd ~
+cat ~/missing/marco_log.log | cd
+echo $?
+cat ~/missing/marco_log.log
+cat ~/missing/marco_log.log | grep log
+echo $?
+cat ~/missing/marco_log.log
+cat ~/missing/marco_log.log | grep miss
+cat ~/missing/marco_log.log | cd 
+cd < "$(cat ~/missing/marco_log.log)"
+cd  "$(cat ~/missing/marco_log.log)"
+ls
+polo
+cd foo
+polo
+cd foo
+marco
+cd ~
+polo
+cd ..
+ls
+rm -d
+tldr rm
+ls
+rm hist ma*
+ls
+rmenv*
+rm env*
+ls
+rmdir mydir
+rmdir -r mydir
+tldr em
+tldr rm
+rm -rf mydir
+ls
+nano scripts.sh
+ls
+chmod -x scripts.sh
+ls
+chmod +x scripts.sh
+ls
+./scripts.sh
+nano rept.sh
+cat run.sh
+cat mcd.sh
+nano scripts.sh
+nano rept.sh
+count=1
+$count
+$count++
+echo $count
+echo $count++
+echo $(count++)
+echo $((count++))
+nano rept.sh
+checkshell
+history | grep shell
+shellcheck rept.sh
+nano rept.sh
+shellcheck rept.sh
+./rept.sh
+chmod +x rept.sh
+ls
+./rept.sh
+nano rept.sh
+./rept.sh
+nano rept.sh
+./rept.sh
+xdg-open rept_log.log
+./rept.sh
+ls
+nano rept.sh
+./rept.sh
+nano rept.sh
+./rept.sh
+xdg-open rept_log.log
+nano rept.sh
+./rept.sh
+nano rept.sh
+./rept.sh
+nano rept.sh
+cat --help
+echo --help
+man echo
+man cat
+man cd
+man echo
+man tee
+tldr tee
+tee --help
+man tee
+nano rept.sh
+touch rept_log.log
+cat rept_log.log
+man touch
+ls
+nano rept.sh
+./rept.sh
+nano rept.sh
+./rept.sh
+xdg-open rept_log.log
+nano rept.sh
+./rept.sh
+nano rept.sh
+./rept.sh
+nano rept.sh
+./rept.sh
+nano rept.sh
+./rept.sh
+nano rept.sh
+y
+./rept.sh
+nano rept.sh
+./rept.sh
+nano rept.sh
+./rept.sh
+ls
+cp *.sh foo
+ls
+ls foo
+ls bar
+history | grep foo bar
+history | grep "foo bar"
+history | grep diff
+diff <(ls foo) <(ls bar)
+ls foo | rm
+ls foo | xargs rm
+ls
+cp foo/*.sh .
+ls
+ls foo
+ls foo | xargs rm ./
+ls
+cp foo/*.sh .
+ls
+mkdir web
+ls
+touch web/web{1..5}.html
+ls web
+tree web
+touch web/subweb/{1,5,10}.html
+mkdir web/subweb
+ls
+tree
+ls ./subweb
+ls web/*/
+ls web/*
+ls
+ls foo
+ls foo/
+ls ./foo
+ls ./foo/*
+ls ./foo/* | xargs rm
+cat ./foo/run.sh
+cat /foo/run.sh
+ls
+cat foo/run.sh
+ls foo
+ls foo/src
+ls foo
+cp . foo
+cp -r . foo
+cp * foo
+ls foo
+ls foo/foo
+tree
+ls foo/*
+ls foo
+ls foo/foo
+tree
+history "rm -"
+history | grep "rm -"
+ls foo/* | xagrs rm -rf
+ls foo/* | xargs rm -rf
+ls
+tree
+touch web/{1,5,10}.html
+tree
+mv web/{?,??}.html web/subweb
+tree web
+ls
+find . -type f -name "*.html"
+find . -type f -name "*.html" | xargs -d '\n' tar -cvzf html.zip
+ls
+tree
+touch lock.c
+nano lock.c
+gcc lock.c
+nano lock.c
+gcc lock.c
+ls
+a.out
+./a.out
+touch in.in
+nano in.in
+a.out <in.in
+./a.out <in.in
+./a.out in.in
+dv
+source lock.c
+rm a.*
+ls
+g++ lock.c
+ls
+in.in
+cat in.in
+gcc lock.c
+ls
+./a.out in.in
+mv in.in in
+ls
+cat in
+./a.out <in
+ls
+cd missing
+cd ..
+cd miss*
+ls
+rm -rf missing
+ls
+rm -rf
+ls
+cd ..
+ls
+rm -rf missing
+ls
+cd missing
+zsh
+sudo apt install zsh
+zsh
+cat  ../../etc/shells
+ls
+cd ~
+ls
+cd ..
+ls
+.//usr/bin/zsh
+chsh -s /bin/zsh
+sudo apt-get update
+zsh --version
+sudo apt-get install zsh
+chsh -s /bin/zsh
+ifconfig
+chsh -s /bin/zsh
+exit
+ls
