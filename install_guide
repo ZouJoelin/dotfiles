@@ -1,0 +1,101 @@
+##############################################
+############# setup ubuntu ###################
+##############################################
+
+sudo passwd root
+sudo adduser $(username)
+sudo vim /etc/sudoers
+  # User privilege specification
+  root ALL=(ALL:ALL) ALL
+  $(username) ALL=(ALL) ALL
+
+ubuntu config --default-user $(username)  # in powershell
+
+sudo apt update && sudo apt upgrade
+
+
+##############################################
+############# install packages ###############
+##############################################
+
+
+[git]:  # update git to latest version
+  {
+    sudo add-apt-repository ppa:git-core/ppa
+    sudo apt-get update
+    sudo apt-get install git
+    git --version
+  }
+  
+[gcc+make]:
+  {
+    sudo apt install build-essential
+  }
+
+[zsh]:
+  {
+    sudo apt install zsh
+    chsh -s /bin/zsh       
+  }
+
+#####################################################################
+[snap]:   # enable systemd and sysetmctl
+  {
+    # initial test
+    snap version & systemd & systemctl
+    # enable
+    sudo apt-get update && sudo apt-get install -yqq daemonize dbus-user-session fontconfig
+    sudo daemonize /usr/bin/unshare --fork --pid --mount-proc /lib/systemd/systemd --system-unit=basic.target
+    htop  # check PID for "systemd " with "/lib/systemd/systemd"
+    exec sudo nsenter -t $(pid_of_systemd) -a su - $(LOGNAME)
+
+    # retest
+    snap version & systemd & sysetmctl
+  }
+#####################################################################
+
+[chezmoi]:
+  {
+    snap install chezmoi --classic
+    chezmoi init https://github.com/ZouJoelin/dotfiles.git
+    chezmoi diff
+    chezmoi apply -v
+    
+    chezmoi update
+    }
+
+[oh-my-zsh]:
+{
+  # come with chezmoi's dotfiles
+}
+
+[ssh]:
+  {
+    ssh-keygen -t rsa
+    ssh-copy-id $(username)@$(ip_ad)
+  }
+
+[tldr]:
+  {
+    sudo apt install tldr    
+  }
+
+[tree]:
+  {
+    sudo apt install tree
+  }
+  
+[ifconfig]:
+  {
+     sudo apt install net-tools
+  }
+
+[ripgrep]:
+  {
+    sudo apt install ripgrepsh
+  }
+
+[shellcheck]:
+  {
+    sudo apt install shellcheck
+  }
