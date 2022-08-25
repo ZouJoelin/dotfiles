@@ -69,6 +69,17 @@ sudo apt update && sudo apt upgrade
   # come with chezmoi's dotfiles
 }
 
+[oh-my-posh]:
+  {
+    sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh
+    sudo chmod +x /usr/local/bin/oh-my-posh
+
+    # add this one below line to ~/.zshrc
+    eval "$(oh-my-posh init zsh --config ~/.mytheme.omp.json)"
+    
+    exec zsh
+  }
+
 [ssh]:
   {
     ssh-keygen -t rsa
