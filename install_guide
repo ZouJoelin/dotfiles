@@ -25,6 +25,9 @@ sudo apt update && sudo apt upgrade
     sudo apt-get update
     sudo apt-get install git
     git --version
+
+    # Solving error: GnuTLS recv error (-110): The TLS connection was non-properly terminated.
+    sudo apt install apt-transport-https
   }
   
 [gcc+make]:
