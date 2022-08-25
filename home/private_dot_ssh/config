@@ -1,4 +1,9 @@
 
+Host vm
+	HostName localhost
+	User voldemort
+	Port 22
+
 Host hacker
 	HostName 172.24.27.249
 	User hacker
