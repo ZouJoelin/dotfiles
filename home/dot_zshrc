@@ -133,3 +133,13 @@ alias grep='grep --color=auto'
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source /etc/zsh_command_not_found
 source /etc/zsh_command_not_found
+
+# conda
+export PATH=~/miniconda3/bin:$PATH
+
+
+
+# Set Proxy
+#hostip=$(cat /etc/resolv.conf |grep "nameserver" |cut -f 2 -d " ")
+#export http_proxy=http://$hostip:7890
+#export https_proxy=http://$hostip:7890

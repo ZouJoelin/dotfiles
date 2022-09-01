@@ -115,3 +115,12 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# conda
+export PATH=~/miniconda3/bin:$PATH
+
+
+# Set Proxy
+#hostip=$(cat /etc/resolv.conf |grep "nameserver" |cut -f 2 -d " ")
+#export http_proxy=http://$hostip:7890
+#export https_proxy=http://$hostip:7890
