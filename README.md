@@ -112,6 +112,10 @@ sudo apt update && sudo apt upgrade
     ssh-keygen -t rsa
     ssh-copy-id $(username)@$(ip_ad)
   }
+[unzip]
+  {
+    sudo apt-get install unzip
+  }
 ```
 
 ### deploy chezmoi
